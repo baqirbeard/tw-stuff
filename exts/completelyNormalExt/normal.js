@@ -3,8 +3,8 @@
   const menuIconURI =
     'data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHdpZHRoPSI4MS44MTQ5NiIgaGVpZ2h0PSI4OS4wNTA5NSIgdmlld0JveD0iMCwwLDgxLjgxNDk2LDg5LjA1MDk1Ij48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgtMjAwLjU4NzI0LC0xMTcuMjYzOTUpIj48ZyBmaWxsPSIjOTk2NmZmIiBzdHJva2U9Im5vbmUiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgZm9udC1mYW1pbHk9IlNhbnMgU2VyaWYiIGZvbnQtc2l6ZT0iNDAiPjx0ZXh0IHRyYW5zZm9ybT0idHJhbnNsYXRlKDIwMS41NTIwNCwyMDIuMjYyNzQpIHNjYWxlKDEuOTI5NiwxLjkyOTYpIiBmb250LXNpemU9IjQwIiB4bWw6c3BhY2U9InByZXNlcnZlIiBmaWxsPSIjOTk2NmZmIj48dHNwYW4geD0iMCIgZHk9IjAiPvCfkY08L3RzcGFuPjwvdGV4dD48L2c+PC9nPjwvc3ZnPjwhLS1yb3RhdGlvbkNlbnRlcjozOS40MTI3NTkyNTU2NTE5OTo2Mi43MzYwNTM4NDcwNzE3NDQtLT4=';
   const bsv = {};
-  const [check, think, ticket] = ['9989', '129300', '127915'].map(codePoint => String.fromCodePoint(codePoint));
-
+  const [check, think, ticket] = ['9989', '129300', '127915'].map(codePoint => String.fromCodePoint(codePoint)); 
+// some of this code was improved by surv. btw ths is my first ever extension
   class baqSlashCNB {
     constructor() {
       bsv.This = 'this';
