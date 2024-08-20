@@ -1,2 +1,1 @@
-this is the joke ext on [Surv's Gallery](https://surv.is-a.dev/gallery/?baq)
-this is also my first ever ext :)
+[name, desc] = ['completely normal extension', 'this is the joke ext on [Surv's Gallery](https://surv.is-a.dev/gallery/?baq). this is also my first ever ext :)']
