@@ -10,11 +10,6 @@ const ggChars = ["1","2","3","4","5","6","7","8","9","0","q","w","e","r","t","y"
 console.log(ggEncode("hi jay!"));
 console.log(ggDecode("zf4nibqcji6izfa812v4ahxyccoh94mduuqh3mkh150hjimo4mm39bx4"));
 
-// end of funcy functions
-
-// one thousand ways to encode a character...
-// loading in 'translate' nearly crashed atom
-
 function ggFilter(letter) {
   return letter.split('').filter(letter => ggChars.includes(letter)).join('');
 }
