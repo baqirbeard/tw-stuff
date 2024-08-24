@@ -21,7 +21,7 @@ function ggL2G(a) {
 } // per letter
 
 function ggEncode(string) {
-  let warbinger = ggFilter(string);
+  let warbinger = ggFilter(string.toLowerCase());
   let barqay = warbinger.split('');
   let encoded = barqay.map(ggL2G);
   return encoded.join('');
